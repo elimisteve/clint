@@ -19,10 +19,10 @@ require 'json'
 current_auth_details = ''
 
 
-if @tent_server == ""
+if @tent_server == ''
   abort("Set `@tent_server` at the top of this file. See README.md for instructions.")
 end
-if current_auth_details == ""
+if current_auth_details == ''
   abort("Set `current_auth_details` variable at the top of this file. See README.md for instructions.")
 end
 
