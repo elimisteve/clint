@@ -51,3 +51,8 @@ and thereby revolutionize, social media as we know it.
 
 "Clint" is the wannabe reverse quasi-portmanteau of "Tent" and
 "client"
+
+
+## Which versions of Ruby does clint work with?
+
+Tested using Ruby 1.9.2 on Linux.
