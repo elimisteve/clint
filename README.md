@@ -53,6 +53,7 @@ and thereby revolutionize, social media as we know it.
 "client"
 
 
-## Which versions of Ruby does clint work with?
+## Install Requirements
 
-Tested using Ruby 1.9.2 on Linux.
+You must have `curl` installed.  I've tested clint on Linux using Ruby
+1.9.2.  Should work on OS X as well.  Not sure about Windows...
