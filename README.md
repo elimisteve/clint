@@ -1,4 +1,4 @@
-# Clint: The World's First Command Line Client for <Tent.is>
+# Clint: The first command line client for [Tent.is](https://tent.is)
 
 ![clint](http://i.imgflip.com/3rfu.jpg)
 
