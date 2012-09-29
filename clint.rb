@@ -11,7 +11,7 @@ require 'json'
 ##     @tent_server = "myusername.tent.is"
 ##     current_auth_details = '{"mac_key_id":"u:...","mac_key":"...","mac_algorithm":"hmac-sha-256"}'
 ##
-@tent_server = ""
+@tent_server = ''
 current_auth_details = ''
 
 
