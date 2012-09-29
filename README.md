@@ -1,5 +1,6 @@
-# Clint: the world's first command line Tent.is client
+# Clint: The World's First Command Line Client for <Tent.is>
 
+![clint](http://i.imgflip.com/3rfu.jpg)
 
 ## Install
 
@@ -26,3 +27,14 @@ Make sure `~/bin/` is in your `$PATH`, then run
 
 Have fun :-).  Thanks to the Tent.io team for trying to decentralize,
 and thereby revolutionize, social media as we know it.
+
+
+## How awesome is `clint`?
+
+![chair](http://i.imgflip.com/3rg4.jpg)
+
+
+## Where did the name "clint" come from?
+
+"Clint" is the wannabe reverse quasi-portmanteau of "Tent" and
+"client"
