@@ -20,10 +20,10 @@ current_auth_details = ''
 
 
 if @tent_server == ""
-  abort("Set `@tent_server` at the top of this file")
+  abort("Set `@tent_server` at the top of this file. See README.md for instructions.")
 end
 if current_auth_details == ""
-  abort("Set `current_auth_details` variable at the top of this file (visit https://YOURUSERNAME.tent.is then View Source to get this value)")
+  abort("Set `current_auth_details` variable at the top of this file. See README.md for instructions.")
 end
 
 
