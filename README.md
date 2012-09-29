@@ -57,3 +57,11 @@ and thereby revolutionize, social media as we know it.
 
 You must have `curl` installed.  I've tested clint on Linux using Ruby
 1.9.2.  Should work on OS X as well.  Not sure about Windows...
+
+
+## Attribution
+
+`clint.rb` is largely a modified version of a specific part of the
+[tent-client-ruby source](https://github.com/tent/tent-client-ruby/blob/master/lib/tent-client/middleware/mac_auth.rb),
+which generates much of the text needed by `curl` to post your status
+updates to Tent.is.

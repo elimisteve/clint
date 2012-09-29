@@ -1,4 +1,8 @@
 #!/usr/bin/env ruby
+# Steve Phillips / elimisteve
+# 2012.09.28
+
+# See "Attribution" section of README.md
 
 require 'openssl'
 require 'base64'
