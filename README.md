@@ -13,9 +13,22 @@
 
 Open `~/bin/clint` in your favorite text editor, then set the two
 clearly marked variables at the top of the file: `@tent_server` and
-`current_auth_details`.  The result should look something like this:
+`current_auth_details`.
 
-    @tent_server = 'myusername.tent.is'
+The value for `@tent_server` should be of the form
+"myusername.tent.is".
+
+The correct value for `current_auth_details` is some JSON embedded in
+the page source of your Tent.is page -- e.g.,
+<https://elimisteve.tent.is> for me since my username `elimisteve`.
+To view source, right-click anywhere on the page then select "View
+Page Source" or similar and look for the line that begins with
+`current_auth_details`.  Copy and paste the string within that lines
+call to `JSON.parse`.
+
+The resulting values should look something like this:
+
+    @tent_server = 'elimisteve.tent.is'
     current_auth_details = '{"mac_key_id":"u:...","mac_key":"...","mac_algorithm":"hmac-sha-256"}'
 
 
